@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: roboto;
+    src: url(Fonts/Roboto-Bold.ttf));
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-inner-content{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar{
+    background-color: #ffffff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #ffffff;
+    z-index: 99;
+}
+
+.navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: #ffffff;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-icon-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-icon-container{
+    width: 30px;
+    cursor: pointer ;
+}
+nav ul li{
+    color: #black;
+    margin: 1.5rem;
+    cursor: pointer;
+
+}
+
+nav ul li:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+.menu-button{
+    display: none;
+}
+
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+
+.header-bottom-side-left{
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 1.5rem;
+
+}
+
+.header-bottom-side-left h2{
+    font-size: 3.2rem;
+    flex-basis: 50%;
+}
+
+.header-bottom-side p{
+    line-height: 2.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-bottom-side-left button{
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    -webkit-text-stroke-color: #ff001f;
+    text-transform: uppercase;
+    cursor: pointer;
+    object-fit: contain;
+    object-position: 50% 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding: 20px 10px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    position: static;
+    overflow: visible;
+    background-color: #black;
+    transition: all 0.2s;
+}
+
+.header-bottom-side-left button:hover{
+    background-color: #009739;
+
+}
+
+.header-bottom-side-right{
+    flex: 50%;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Fallen, .ks, .yuri, .chelo, .art, .guerri{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.Fallen,
+.ks,
+.yuri,
+.chelo,
+.Art,
+.guerri {
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 10px; 
+    
+}
+
+.Fallen,
+.ks,
+.yuri,
+.chelo,
+.Art,
+.guerri {
+    text-align: center;
+    
+}
+
+
+.Fallen p,
+.ks p,
+.yuri p,
+.chelo p,
+.Art p,
+.guerri p {
+    font-weight: bold; 
+    font-size: 14px; 
+}
+
+h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.home{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.header-bottom-side{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 2.2rem;
+}
+
+.Day1{
+
+}
+
+.DayOne{
+        
+}
+
+#background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+.main_info{
+    width: 100%;
+    max-width: 570;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.ArtDay1{
+    width: 400px; 
+    height: 300px; 
+}
+
+#background image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navi{
+    width: 400px; 
+    height: 300px; 
+}
+.content {
+    color: #ffffff; 
+    font-size: 18px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: ;
+    
+}
+
+.Virada{
+    width: 400px; 
+    height: 300px;  
+}
+
+.all5{
+    width: 400px; 
+    height: 300px;
+}
+
+.kscr{
+    width: 400px; 
+    height: 300px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+textarea {
+    flex: 2; 
+    margin: 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.radio-options label,
+.checkbox-options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"]:hover {
+    background-color: #06eb5e;
+}
